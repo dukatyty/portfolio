@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- First Section -->
+        
+
+        
+        <div class="section">
+            <div class="header">
+                <div class="logo" data-key="home">Домой</div>
+                <div class="user-info">
+                    <span data-key="versionForVisuallyImpaired">Версия для слабовидящих</span>
+                    <span>Бекенова А.М. Бакалавриат</span>
+                    <span><a href="#" data-key="logout">Выход</a></span>
+                    <span>
+                        <button onclick="setLanguage('kz')">Каз</button>
+                        <button onclick="setLanguage('ru')">Рус</button>
+                        <button onclick="setLanguage('en')">Eng</button>
+                    </span>
+                </div>
+            </div>
+
+            <div class="notification">
+                <span data-key="examRegistration">Регистрация на дистанционный экзамен</span>
+                <span data-key="examRetake">Пересдача экзамена (FX) <a href="#">Читать подробнее</a></span>
+                <span id="current-date-time"></span>
+                <span data-key="noNewNotifications">У Вас нет новых уведомлений: 0</span>
+            </div>
+
+            <div class="section">
+                <div class="card">
+                    <div class="icon edo"></div>
+                    <span data-key="edo">ЭДО</span>
+                </div>
+                <div class="card">
+                    <div class="icon syllabus"></div>
+                    <span data-key="syllabus">Силлабус</span>
+                </div>
+                <div class="card">
+                    <div class="icon individual-plan"></div>
+                    <span data-key="individualPlan">Индивидуальный учебный план</span>
+                </div>
+                <div class="card">
+                    <a href="schedule.html">
+                        <div class="icon schedule"></div>
+                        <span data-key="schedule">Расписание</span>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="icon journal"></div>
+                    <span data-key="journal">Журнал</span>
+                </div>
+                <div class="card">
+                    <div class="icon exam-schedule"></div>
+                    <span data-key="examSchedule">Расписание экзаменов</span>
+                </div>
+                <div class="card">
+                    <div class="icon general-schedule"></div>
+                    <span data-key="generalSchedule">Общее расписание</span>
+                </div>
+                <div class="card">
+                    <a href="status.html">
+                        <div class="icon my-status"></div>
+                        <span data-key="myStatus">Мой статус</span>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="icon attendance"></div>
+                    <span data-key="attendance">Электронная посещаемость</span>
+                </div>
+            </div>
+            <!-- Second Section -->
+                <div class="section">
+                <div class="card">
+                    <div class="icon personal-data"></div>
+                    <span data-key="personalData">Личные данные</span>
+                </div>
+                <div class="card">
+                    <div class="icon documents"></div>
+                    <span data-key="documentsInstructions">Документы/Инструкции</span>
+                </div>
+                <div class="card">
+                    <div class="icon debt"></div>
+                    <span data-key="debt">Задолженность</span>
+                </div>
+                <div class="card">
+                    <div class="icon clearance-sheet"></div>
+                    <span data-key="clearanceSheet">Обходной лист</span>
+                </div>
+                <div class="card">
+                    <div class="icon contacts"></div>
+                    <span data-key="contacts">Контакты</span>
+                </div>
+                <div class="card">
+                    <div class="icon certificates"></div>
+                    <span data-key="certificates">Справки</span>
+                </div>
+                <div class="card">
+                    <div class="icon diploma"></div>
+                    <span data-key="diploma">Дипломирование</span>
+                </div>
+                <div class="card">
+                    <div class="icon scientific-library"></div>
+                    <span data-key="scientificLibrary">Научная библиотека</span>
+                </div>
+                <div class="card">
+                    <div class="icon scientific-db"></div>
+                    <span data-key="scientificDB">БД Научной библиотеки</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

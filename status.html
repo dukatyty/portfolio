@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Header Section -->
+        <div class="section">
+            <div class="header">
+                <div class="breadcrumbs">
+                    <span><a href="index.html">Страница учителя</a></span> &gt;
+                    <span>Мой статус</span>
+                </div>
+                <div class="user-info">
+                    <span>Версия для слабовидящих</span>
+                    <span>Бекенова А.М.</span>
+                    <span><a href="#" data-key="logout">Выход</a></span>
+                    <div class="language-switcher">
+                        <button onclick="setLanguage('kz')">Қаз</button>
+                        <button onclick="setLanguage('ru')">Рус</button>
+                        <button onclick="setLanguage('en')">Eng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="notification">
+                <span data-key="examRegistration">Регистрация на дистанционный экзамен</span>
+                <span data-key="examRetake">Пересдача экзамена (FX) <a href="#">Читать подробнее</a></span>
+                <span id="current-date-time"></span>
+                <span data-key="noNewNotifications">У Вас нет новых уведомлений: 0</span>
+            </div>
+
+            <!-- Main Content -->
+            <div class="content">
+                <div class="student-status">
+                    <img src="path/to/photo.jpg" alt="Student Photo">
+                    <div class="status-info">
+                        <p><strong>Статус:</strong> Учится</p>
+                        <p><strong>Категория:</strong> Студент</p>
+                        <p><strong>Академ статус:</strong> Полный</p>
+                        <p><strong>Форма оплаты:</strong> Грант</p>
+                        <p><strong>Курс:</strong> 4</p>
+                        <p><strong>Английский язык:</strong> Да</p>
+                        <p><strong>Русский язык:</strong> Да</p>
+                        <p><strong>Казахский язык:</strong> Да</p>
+                        <p><strong>Рабочий учебный план:</strong> 6B06102 Computer Science 2020-21 Полная форма обучения</p>
+                        <p><strong>ОП / Специальность:</strong> 6B06102 Computer Science</p>
+                        <p><strong>Общественно полезная деятельность:</strong> <input type="checkbox" disabled></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
