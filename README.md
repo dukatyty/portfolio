@@ -32,9 +32,10 @@ I am a **Full Stack Developer** with expertise in **modern web development** and
 
 ## 📌 Projects  
 
-- [Bartr.kz (Next.js + Laravel)](#)
-- [Zakon & Pravo (Blade + Laravel)](#)
-- [iqra.space (Laravel sail + Vite.js)](#)
+- [Bartr.kz (Next.js + Laravel)](https://bartr.kz)
+- [Zakon & Pravo (Blade + Laravel)](https://zakonpravo.kz)
+- [iqra.space (Laravel Sail + Vite.js)](https://iqra.space)
+
 
 ## 📱 Connect with Me  
 
