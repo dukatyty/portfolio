@@ -1,11 +1,15 @@
-# 👋 Hi! I'm [Your Name]
+# 👋 Hi! I'm Dulat Sultanov
 
 ## 🌟 About Me  
-I am a **designer & developer** with expertise in **UI/UX design, branding, visual identity, and product design**. I also develop modern web applications using the latest technologies.
+I am a **Full Stack Developer** with expertise in **modern web development** and backend solutions.  
 
 ## 🚀 Technologies & Tools  
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
+![Nuxt.js](https://img.shields.io/badge/Nuxt.js-%2300C58E.svg?style=for-the-badge&logo=nuxt.js&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![Laravel Sail](https://img.shields.io/badge/Laravel_Sail-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -31,18 +35,12 @@ I am a **designer & developer** with expertise in **UI/UX design, branding, visu
 
 - [Bartr.kz (Next.js + Laravel)](#)
 - [Zakon & Pravo (Blade + Laravel)](#)
-- [Kostyum.kz (Django + Nuxt 3)](#)
-- [QuantumPro (Nuxt 2 SSG)](#)
-- [BUKVA ZAKONA (Nuxt 3 + Laravel)](#)
-- [A-lux (Blade + Laravel)](#)
-- [Almaty Kazkabel (Next.js + Django)](#)
-- [Taharqa Technologies (Vue 3 + Django)](#)
+- [iqra.space (Laravel sail + Vite.js)](#)
 
 ## 📱 Connect with Me  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/YOUR_PROFILE)
-[![Dribbble](https://img.shields.io/badge/Dribbble-%23EA4C89.svg?style=for-the-badge&logo=dribbble&logoColor=white)](https://dribbble.com/YOUR_PROFILE)
-[![Behance](https://img.shields.io/badge/Behance-%23176AFF.svg?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/YOUR_PROFILE)
+
 
 ---
 
